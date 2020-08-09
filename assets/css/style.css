@@ -1,0 +1,26 @@
+body{
+    padding: 32px;
+    scroll-behavior: smooth;
+}
+
+[href="#top"]{
+    background-color: blue;
+    color: cornsilk;
+    text-transform: lowercase;
+    border-radius: 30px;
+    display: block;
+    padding: 5px, 10px;
+    border: 2px solid white;
+    text-decoration: none;
+    transition: all 0.8s ease-in-out;
+    position: fixed;
+    bottom: 12px;
+    right:  12px;
+
+}
+
+[href="#top"]{
+    background-color: #fff;
+    border-color: blue;
+    color: blue;
+}
