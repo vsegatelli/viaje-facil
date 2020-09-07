@@ -20,6 +20,16 @@ border-style: outset;
 text-align: left;
 }
 
+img.mapaNZ {
+    border: aqua;
+ height: min-content;
+ width: min-content;
+ padding: 20px;
+ }
+     
+
+
+
 footer{
     text-align: center;
     color: white;
