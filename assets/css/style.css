@@ -1,26 +1,37 @@
-body{
-    padding: 32px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-[href="#top"]{
-    background-color: blue;
-    color: cornsilk;
-    text-transform: lowercase;
-    border-radius: 30px;
-    display: block;
-    padding: 5px, 10px;
-    border: 2px solid white;
-    text-decoration: none;
-    transition: all 0.8s ease-in-out;
-    position: fixed;
-    bottom: 12px;
-    right:  12px;
-
+nav{
+    color: white;
 }
 
-[href="#top"]{
-    background-color: #fff;
-    border-color: blue;
-    color: blue;
+main{
+    margin-top: 56px;
+    min-height: calc(100vh - 100px);
+    }
+   
+section{
+border: 1px solid red;
+border-style: outset;
+text-align: left;
+}
+
+img.mapaNZ {
+    border: aqua;
+ height: min-content;
+ width: min-content;
+ padding: 20px;
+ }
+     
+
+
+
+footer{
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
