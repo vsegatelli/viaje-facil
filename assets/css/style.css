@@ -1,37 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-nav{
+a,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #6022f1;
+    font-weight: bolder;
+}
+
+nav {
     color: white;
 }
 
-main{
+main {
     margin-top: 56px;
     min-height: calc(100vh - 100px);
-    }
-   
-section{
-border: 1px solid red;
-border-style: outset;
-text-align: left;
 }
 
 img.mapaNZ {
-    border: aqua;
- height: min-content;
- width: min-content;
- padding: 20px;
- }
-     
+    padding: 20px
+}
 
-
-
-footer{
+footer {
     text-align: center;
     color: white;
     padding: 10px;
+}
+
+footer a {
+    color: #fff
 }
