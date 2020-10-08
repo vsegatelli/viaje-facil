@@ -6,7 +6,10 @@
 }
 
 nav{
+    position: fixed;
     color: white;
+    margin-bottom: 10px;
+    text-decoration: none;
 }
 
 main{
@@ -33,15 +36,15 @@ border-style: outset;
 text-align: left;
 }
 
-img.mapaNZ {
-    border: aqua;
- height: min-content;
- width: min-content;
+img {
+    
+ height: auto;
+ width: auto;
  padding: 20px;
  }
      
 form{
-    height: 10px;
+    
     margin: 3px;
 }
 
@@ -50,4 +53,8 @@ footer{
     text-align: center;
     color: white;
     padding: 10px;
+}
+
+card{
+
 }
