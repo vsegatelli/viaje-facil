@@ -37,15 +37,24 @@ text-align: left;
 }
 
 img {
-    
+
  height: auto;
  width: auto;
  padding: 20px;
+ text-align: center;
+}
+ 
+ .card{
+text-align: center;
+color: rgb(3, 3, 97);
  }
+ 
+ 
      
 form{
     
     margin: 3px;
+    
 }
 
 
