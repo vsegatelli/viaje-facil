@@ -10,7 +10,11 @@ nav{
     color: white;
     margin-bottom: 10px;
     text-decoration: none;
-}
+    }
+
+    .subnav-container{
+        text-decoration: none;
+    }
 
 main{
     margin-top: 56px;

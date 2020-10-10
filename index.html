@@ -14,25 +14,47 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Viaje Fácil, a forma mais fácil de viajar!</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
-            <a class="nav-item" href="paises.html">Países </a>
-          </li>
-        <li class="nav-item">
-          <a class="nav-item" href="quemSomos.html">Quem somos</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="destinos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Destinos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Continentes</a>
+            <a class="dropdown-item" href="#">Países</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Veja Mais +</a>
+          </div>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="cadastro.html" >Cadastre-se</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="destinos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dicas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">O que levar?</a>
+            <a class="dropdown-item" href="#">Quando viajar?</a>
+            <a class="dropdown-item" href="#">Como é</a>
+            <a class="dropdown-item" href="#">O que fazer</a>
+            <a class="dropdown-item" href="#">Seus Direitos</a>
+            <a class="dropdown-item" href="#">Fuso Horário</a>
+            <a class="dropdown-item" href="#">Milhas</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Veja Mais +</a>
+          </div>
         </li>
       </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
   </nav>
     <h1 style="color: rgba(11, 11, 68, 0.795);">Viaje Fácil!</h1>
