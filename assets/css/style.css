@@ -6,8 +6,8 @@
 }
 
 nav{
-    color: white;
-}
+    color: white
+  }
 
 main{
     margin-top: 56px;
@@ -35,3 +35,15 @@ footer{
     color: white;
     padding: 10px;
 }
+.titulo-header .busca input {
+    font-size: 20px;
+    color: #414042;
+    z-index: 323;
+    padding-left: 10px;
+    width: 330px;
+    border: solid black 1px;
+}
+.titulo-header .busca {
+    text-align: center;
+}
+

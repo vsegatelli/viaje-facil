@@ -17,39 +17,72 @@
     
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
-        <a class="navbar-brand" href="#">Viaje Fácil, a forma mais fácil de viajar!</a>
+        <a class="navbar-brand" href="/">
+          <img src="./assets/img/viaje.jpg" alt="alt" />
+      </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#quemSomos">Quem somos</a>
+              <a class="nav-link" href="#Destinos">Destinos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#ondeAtuamos">Onde atuamos</a>
+              <a class="nav-link" href="#Dicas">Dicas</a>
             </li>
-            
+            <li class="nav-item">
+              <a class="nav-link" href="#Utilidades">Utilidades</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Tópicos">Tópicos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Agenda">Agenda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Parceiros">Parceiros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contato">Contato</a>
+            </li>    
           </ul>
         </div>
-      </nav>
-        <h1 style="color: rgba(11, 11, 68, 0.795);">Viaje Fácil!</h1>
-        <ul type="none">
-            <li>A sua forma mais fácil de viajar</li>
-            <a href="tel: +5511999019908" title="Entre em contato">Entre em contato: +55 11 99901-9908</a>
-            <li></li>
-            <a href="https://wa.me/+551199019908?text=Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20site%20agilmindset%20e%20gostaria%20de%20saber%20mais%20sobre%0D%0A" target="_blank" rel="noopener noreferrer">Consulte-nos via Whatsapp</a>
-            <li></li>
-            <a href="mailto:victorsegatelli@gmail.com">Mande um e-mail</a>           
 
-
-        </ul>
         
+        
+      </nav>
+              
     </header>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./assets/img/Destinos.jpg" alt="Primeiro Slide">
+        </div>
+      </div>
+    </div>
+    
+  <div class="titulo-header">                
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-md-offset-6 col-lg-offset-6">
+                <div class="busca text-right">
+                    <form id="busca" action="/busca" method="get">
+                        <input name="search" placeholder="Busca" />
+                        <span class="glyphicon glyphicon-ok form-control-feedback lupa" style="cursor: pointer;" aria-hidden="true" onclick="$('#busca').submit();"></span>
+                    </form>
+                    <!-- <img src="./assets/img/lupa.png" alt="lupa" class="lupa" /> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -149,10 +182,22 @@
                     
      </form>
     </main>
+    <h1 style="color: rgba(11, 11, 68, 0.795);">Viaje Fácil!</h1>
+    <ul type="none">
+        <li>A sua forma mais fácil de viajar</li>
+        <a href="tel: +5511999019908" title="Entre em contato">Entre em contato: +55 11 99901-9908</a>
+        <li></li>
+        <a href="https://wa.me/+551199019908?text=Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20site%20agilmindset%20e%20gostaria%20de%20saber%20mais%20sobre%0D%0A" target="_blank" rel="noopener noreferrer">Consulte-nos via Whatsapp</a>
+        <li></li>
+        <a href="mailto:victorsegatelli@gmail.com">Mande um e-mail</a>           
+
+
+    </ul>
         <footer class="bg-dark">
           <p>Victor Henrique da Silva Segatelli - 2020 &copy;</p>
         </footer>
         </main>
+        
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
