@@ -6,33 +6,13 @@
 }
 
 nav{
-    position: fixed;
     color: white;
-    margin-bottom: 10px;
-    text-decoration: none;
-    }
-
-    .subnav-container{
-        text-decoration: none;
-    }
+}
 
 main{
     margin-top: 56px;
     min-height: calc(100vh - 100px);
     }
-
-    li{
-        margin: 3px;
-    }
-
-h2{
-    margin: 3px;
-}
-
-h5{
-    margin: 3px;
-}
-
    
 section{
 border: 1px solid red;
@@ -40,34 +20,18 @@ border-style: outset;
 text-align: left;
 }
 
-img {
-
- height: auto;
- width: auto;
+img.mapaNZ {
+    border: aqua;
+ height: min-content;
+ width: min-content;
  padding: 20px;
- text-align: center;
-}
- 
- .card{
-text-align: center;
-color: rgb(3, 3, 97);
  }
- 
- 
      
-form{
-    
-    margin: 3px;
-    
-}
+
 
 
 footer{
     text-align: center;
     color: white;
     padding: 10px;
-}
-
-card{
-
 }
