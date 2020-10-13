@@ -8,7 +8,14 @@
 nav{
     color: white
   }
+carousel [class="carosel-item"]{
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  object-fit: fill;
+  object-position: bottom;
 
+}
 main{
     margin-top: 56px;
     min-height: calc(100vh - 100px);
@@ -70,9 +77,10 @@ img.mapaNZ {
  }
 
 footer{
+  text-decoration: none;
     text-align: center;
     color: white;
-    padding: 10px;
+    padding: 6px;
 }
 .titulo-header .busca input {
     font-size: 20px;
@@ -85,15 +93,22 @@ footer{
 .titulo-header .busca {
     text-align: center;
 }
-a#irParaTopo[href="#top"] {
+
+button  [href="#top"] {
+  
     background-color: crimson;
     color: #ffffff;
     text-transform: lowercase;
     border-radius: 30px;
-    position: fixed;
-    display: block;
-    bottom: 12px;
-    right: 12px;
-    padding: 5px 10px;
-    border: 2px solid;
+    display: flex;
+    bottom: 6px;
+    right: 6px;
+    padding: 0px;
+    transition-duration: 0.4s;
+    
+}
+
+.button:hover{
+  background-color: rgb(107, 9, 28);
+  color: white;
 }
