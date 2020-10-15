@@ -19,6 +19,9 @@ border: 1px solid red;
 border-style: outset;
 text-align: left;
 }
+/* .bg-dark {
+    background-color: transparent !important;
+} */
 
 /* Dropdown Button */
 .dropbtn {
@@ -62,29 +65,131 @@ text-align: left;
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color:  #383d38;}
 
+  .topnav .search-container {
+    float: right;
+  }
+    
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    /* /* Quando a tela tiver menos de 600 px de largura, empilhe os links e o campo de pesquisa verticalmente em vez de horizontalmente */
+    .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;  
+      }
+    }
+    
 img.mapaNZ {
     border: aqua;
  height: min-content;
  width: min-content;
  padding: 20px;
  }
+ /* Não encontrou o que procurava */
+ .nao-encontrou-div {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 60%;
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nao-encontrou-div {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 60%;
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.nao-encontrou {
+    font-family: "open_sanslight";
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 25PX;
+}
+.titulo-nao-encontrou {
+    font-size: 15px;
+    text-align: center;
+    font-family: "open_sanslight";
+}
 
 footer{
     text-align: center;
     color: white;
     padding: 10px;
 }
-.titulo-header .busca input {
-    font-size: 20px;
-    color: #414042;
-    z-index: 323;
-    padding-left: 10px;
-    width: 330px;
-    border: solid black 1px;
-}
-.titulo-header .busca {
-    text-align: center;
-}
+
 a#irParaTopo[href="#top"] {
     background-color: crimson;
     color: #ffffff;
@@ -97,3 +202,5 @@ a#irParaTopo[href="#top"] {
     padding: 5px 10px;
     border: 2px solid;
 }
+
+
