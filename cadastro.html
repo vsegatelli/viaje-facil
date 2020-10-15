@@ -40,43 +40,63 @@
     <h1>Cadastre-se e confira as principais novidades! </h1>
     <h4>Preencha o formulário abaixo e fique por dentro dos principais conteúdos</h4>
     <form>
-      <div class="form-row">
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Nome">
+      <div class="form-row col-md-6">
+        <div class="form-group col-md-6">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
         </div>
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Sobrenome">
-        </div>        
-      </div>
+        <div class="form-group col-md-6">
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Sobrenome">
+        </div>
+    </div>
     </form> 
     <form>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="inputEmail4">E-mail</label>
-          <input type="email" class="form-control" id="inputEmail4" placeholder="E-mail">
-        </div>
-        <div class="form-group col-md-6">
-          <label for="inputPassword4">Senha</label>
-          <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
-        </div>
-      </div>
-      <div class="form-group">
+      <div class="form-group col-md-6">
+        <label for="email">Email</label>
+        <input type="text" class="form-control" id="email" name="email" placeholder="exemplo@email.com">
+        <small id="emailError" class="d-none text-danger">Por favor, confira o email inserido</small>
+    </div>
+    <div class="form-group col-md-6">
+        <label for="emailConfirm">Confirmação de email</label>
+        <input type="text" class="form-control" id="emailConfirm" name="emailConfirm" placeholder="exemplo@email.com">
+        <small id="emailConfirmError" class="d-none text-danger">Atenção, os emails inseridos não coincidem</small>
+    </div>
+</div>
+<div class="form-group">
+  <div class="form-group col-md-3">
+      <label for="senha">Senha</label>
+      <input type="text" class="form-control" id="senha" name="senha" placeholder="*****" aria-describedby="senhaHelp">
+      <small id="passwordHelpInline" class="text-muted">
+          [<span id="senha6chars">Tem mais de 5 caracteres e não tem espaço</span> |
+          <span id="senhaAlphaNum">Tem números, maiúsculas e minúsculas</span>]
+      </small>
+  </div>
+  <div class="form-group col-md-3">
+      <label for="senhaConfirm">Confirmação de Senha</label>
+      <input type="text" class="form-control" id="senhaConfirm" name="senhaConfirm" placeholder="*****" aria-describedby="senhaConfirmHelp">
+      <small id="senhaConfirmError" class="d-none text-danger">
+          <span>Por favor, verifique, as senhas não coincidem</span>
+      </small>
+  </div>
+</div>
+      <div class="form-group col-md-6">
         <label for="inputAddress">Endereço</label>
         <input type="text" class="form-control" id="inputAddress" placeholder="Rua, Av. Travessa">
       </div>
-      <div class="form-group">
+      <div class="form-group col-md-6">
         <label for="inputAddress2">Complemento</label>
         <input type="text" class="form-control" id="inputAddress2" placeholder="Bloco, Apto">
       </div>
-      <div class="form-row">
+      <div class="form-row col-md-6">
         <div class="form-group col-md-6">
           <label for="inputCity">Cidade</label>
           <input type="text" class="form-control" id="inputCity">
         </div>
-        <div class="form-group col-md-4">
-          <label for="inputState">Estado</label>
-          <select id="inputState" class="form-control">
-            <option selected>Escolha...</option>
+        <div class="form-group col-md-3">
+          <label for="uf">UF</label>
+          <select id="uf" class="form-control">
+              <option disabled selected value="">UF</option>
             <option>...</option>
           </select>
         </div>
@@ -95,3 +115,7 @@
       </div>
       <button type="submit" class="btn btn-primary">Sign in</button>
     </form>   
+    <script src='formulario.js'></script>
+    
+  </body>
+  </html>
