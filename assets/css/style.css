@@ -1,3 +1,8 @@
+:root{
+  --color-text:  rgb(87, 87, 190);
+  --color-bg:  rgb(226, 226, 236);
+}
+
 *,
 html,
 body {
@@ -8,7 +13,8 @@ body {
 
 body {
   min-height: 100vh;
-  background-color: rgb(226, 226, 236);
+  color: var(--color-text);
+  color: var(--color-bg);
   ;
 }
 
@@ -27,8 +33,9 @@ carousel [class="carosel-item"] {
 }
 
 main {
-  background-color: rgb(226, 226, 236);
-  ;
+  
+  color: var(--color-text);
+  color: var(--color-bg);
   margin-top: 56px;
   min-height: calc(100vh - 100px);
 }
@@ -36,18 +43,19 @@ main {
 h1,
 h2 {
   text-align: center;
+  color: var(--color-text);
+  color: var(--color-bg);
 }
-
+section
 h1,
 #titulo {
+  color: var(--color-text);
+  color: var(--color-bg);
   padding: 16px;
   padding-bottom: 30px;
-  color: rgb(34, 34, 66);
-  background-color: rgb(226, 226, 236);
-  text-align: center;
-
-
-}
+  
+  
+  }
 
 
 /* Dropdown Button */
@@ -98,11 +106,12 @@ h1,
   background-color: #383d38;
 }
 
-section{
+section {
+  color: var(--color-text);
+  color: var(--color-bg);
   display: flex;
   flex-wrap: wrap;
-  
-  min-height: 100vh;
+    min-height: 100vh;
   display: flex;
 }
 
@@ -140,7 +149,7 @@ button [href="#top"] {
   color: white;
 }
 
-a{
+a {
   text-align: center;
   text-decoration: none;
   color: white;
@@ -152,4 +161,4 @@ footer {
   text-decoration: none;
   text-align: center;
   color: white;
-  }
+}
