@@ -1,11 +1,9 @@
-:root{
-  --color-text:  rgb(87, 87, 190);
-  --color-bg:  rgb(226, 226, 236);
-}
 
 *,
 html,
 body {
+  
+  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,9 +11,9 @@ body {
 
 body {
   min-height: 100vh;
-  color: var(--color-text);
-  color: var(--color-bg);
-  ;
+  color: rgb(87, 87, 190);
+  background-color: rgb(226, 226, 236);
+  
 }
 
 
@@ -33,9 +31,9 @@ carousel [class="carosel-item"] {
 }
 
 main {
-  
-  color: var(--color-text);
-  color: var(--color-bg);
+
+  background-color: rgb(87, 87, 190);
+color: rgb(226, 226, 236);
   margin-top: 56px;
   min-height: calc(100vh - 100px);
 }
@@ -43,19 +41,19 @@ main {
 h1,
 h2 {
   text-align: center;
-  color: var(--color-text);
-  color: var(--color-bg);
+  color: rgb(87, 87, 190);
+background-color: rgb(226, 226, 236);
 }
-section
-h1,
+
+section h1,
 #titulo {
-  color: var(--color-text);
-  color: var(--color-bg);
+  color: rgb(87, 87, 190);
+background-color: rgb(226, 226, 236);
   padding: 16px;
   padding-bottom: 30px;
-  
-  
-  }
+
+
+}
 
 
 /* Dropdown Button */
@@ -107,11 +105,11 @@ h1,
 }
 
 section {
-  color: var(--color-text);
-  color: var(--color-bg);
+  color: rgb(87, 87, 190);
+background-color: rgb(226, 226, 236);
   display: flex;
   flex-wrap: wrap;
-    min-height: 100vh;
+  min-height: 100vh;
   display: flex;
 }
 
