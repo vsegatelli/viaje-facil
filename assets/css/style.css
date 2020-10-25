@@ -49,11 +49,6 @@ h1,
 
 }
 
-section {
-
-
-  text-align: left;
-}
 
 /* Dropdown Button */
 .dropbtn {
@@ -103,16 +98,15 @@ section {
   background-color: #383d38;
 }
 
-
-footer {
-
-  margin-bottom: 6%;
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  padding: 3px;
-
+section{
+  display: flex;
+  flex-wrap: wrap;
+  
+  min-height: 100vh;
+  display: flex;
 }
+
+
 
 .titulo-header .busca input {
   font-size: 20px;
@@ -147,6 +141,15 @@ button [href="#top"] {
 }
 
 a{
+  text-align: center;
   text-decoration: none;
   color: white;
 }
+
+footer {
+
+  margin-bottom: 0%;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  }
