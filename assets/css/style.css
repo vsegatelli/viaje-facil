@@ -49,11 +49,15 @@ section h1,
 #titulo {
   color: rgb(87, 87, 190);
 background-color: rgb(226, 226, 236);
-  padding: 16px;
-  padding-bottom: 30px;
+  }
 
-
-}
+  article{
+    height: 100%;
+    width: auto;
+    font-size: 22px;
+    text-align: center;
+    
+  }
 
 
 /* Dropdown Button */
@@ -155,8 +159,10 @@ a {
 
 footer {
 
+  font-size: 28px;
   margin-bottom: 0%;
   text-decoration: none;
   text-align: center;
   color: white;
+  padding: 6px;
 }
