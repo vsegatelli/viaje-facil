@@ -13,46 +13,83 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Viaje Fácil, a forma mais fácil de viajar!</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-item" href="paises.html">Países </a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-item" href="quemSomos.html">Quem somos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="cadastro.html" >Cadastre-se</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">
+          <img src="./assets/img/viaje.jpg" alt="alt" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <div class="dropdown">
+                <button class="dropbtn">Home</button>
+              </div>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="dropbtn">Destinos</button>
+                <div class="dropdown-content">
+                  <a href="./destinos.html"></a>
+                  <a href="#">Europa</a>
+                  <a href="#">Asia</a>
+                  <a href="#">América do Norte</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="dropbtn">Dicas</button>
+                <div class="dropdown-content">
+                  <a href="#">Viajantes Europa</a>
+                  <a href="#">Viajantes Asia</a>
+                  <a href="#">Viajantes América do Norte</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="dropbtn">Parceiros</button>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="dropbtn">Contato</button>
+                <div class="dropdown-content">
+                  <a href="mailto:victorsegatelli@gmail.com">>Email</a>
+                  <a href="https://wa.me/+551199019908?text=Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20site%20agilmindset%20e%20gostaria%20de%20saber%20mais%20sobre%0D%0A"
+                    target="_blank" rel="noopener noreferrer">Whatsapp</a>
+                  <a href="#">Instagram</a>
+                  <a href="#">Twitter</a>
+                  <a href="tel: +5511999019908">Ligue pra gente</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+    
+    
+    
+      </nav>
           
           <div class="row row-cols-1 row-cols-md-2">
             <div class="col mb-4">
               <div class="card">
-                <img src="./assets/img/Nz/auckland.jpg" class="card-img-top" alt="...">
+                <img src="./assets/img/europa/roteiro_europa.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Nova Zelândia</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, iure. Hic vel, maiores quia optio perferendis molestiae beatae? Et earum totam reiciendis ullam sint a. Debitis doloribus aperiam laborum quasi.</p>
+                  <h5 class="card-title">Europa</h5>
+                  <p class="card-text">Já imaginou fazer uma Euro Trip? Se não, confira o post! Te garanto que após a leitura, essa viagem acontecerá!</p>
                 </div>
               </div>
             </div>
             <div class="col mb-4">
               <div class="card">
-                <img src="./assets/img/japao/hiroshima.jpg" class="card-img-top" alt="...">
+                <img src="./assets/img/asia/roteiro_asia.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Japão</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quia quibusdam eveniet vitae quaerat quasi cumque ratione quos sunt, debitis consectetur a eaque excepturi? Consectetur quo distinctio magni perferendis vitae!</p>
+                  <h5 class="card-title">Asia</h5>
+                  <p class="card-text">A Ásia é cheia de mistérios, muitas pessoas deixam de conhece-lá devido a barreira da linguagem e distância mas, nós estamos aqui pra fazer todo o trabalho duro pra você! Quer ver? Leia aqui, vem tranquilo!</p>
                 </div>
               </div>
             </div>
