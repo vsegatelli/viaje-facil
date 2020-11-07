@@ -1,19 +1,22 @@
-
 *,
 html,
-body {
-  
-  
+body,
+main,
+section,
+article
+h1, h2, h3
+ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
+  
   min-height: 100vh;
   color: rgb(87, 87, 190);
   background-color: rgb(226, 226, 236);
-  
+
 }
 
 
@@ -26,31 +29,40 @@ carousel [class="carosel-item"] {
   height: 100%;
   max-width: 100%;
   object-fit: fill;
-  object-position: bottom;
+  object-position: top;
 
 }
 
 main {
 
   background-color: rgb(87, 87, 190);
-color: rgb(226, 226, 236);
+  color: rgb(226, 226, 236);
   margin-top: 56px;
   min-height: calc(100vh - 100px);
+  
 }
 
 h1,
 h2 {
   text-align: center;
   color: rgb(87, 87, 190);
-background-color: rgb(226, 226, 236);
+  background-color: rgb(226, 226, 236);
 }
 
 section h1,
 #titulo {
+  height: 100%;
+  width: auto;
   color: rgb(87, 87, 190);
-background-color: rgb(226, 226, 236);
-  padding: 16px;
-  padding-bottom: 30px;
+
+}
+
+section,
+article {
+  height: 100%;
+  width: 100%;
+  font-size: 22px;
+  text-align: center;
 
 
 }
@@ -106,11 +118,11 @@ background-color: rgb(226, 226, 236);
 
 section {
   color: rgb(87, 87, 190);
-background-color: rgb(226, 226, 236);
+  background-color: rgb(226, 226, 236);
   display: flex;
   flex-wrap: wrap;
   min-height: 100vh;
-  display: flex;
+  display: flexbox;
 }
 
 
@@ -155,8 +167,11 @@ a {
 
 footer {
 
+  font-size: 28px;
   margin-bottom: 0%;
   text-decoration: none;
   text-align: center;
   color: white;
+  padding: 6px;
+
 }
