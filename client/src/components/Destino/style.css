@@ -1,0 +1,28 @@
+.destino-card {
+  flex: 1 1 20%;
+}
+
+.destino-card span {
+  background-color: lightgreen;
+  border: 1px solid darkgreen;
+  border-radius: 24px;
+  margin: 8px auto;
+  padding: 4px 8px;
+}
+
+.destino-card span.promo {
+  background-color: pink;
+  border: 1px solid deeppink;
+  color: deeppink;
+}
+
+.city-img {
+  height: 360px;
+  overflow: hidden;
+  width: 420px;
+}
+
+.city-img img {
+  min-height: 360px;
+  width: auto;
+}
