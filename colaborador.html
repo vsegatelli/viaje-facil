@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+  <title>Espaço para Colaborar</title>
+
+<body>
+    <header>
+   
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <div class="dropdown">
+              <button class="dropbtn">Home</button>
+              <a href="./colaborador.html"></a>
+            </div>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="dropbtn">Destinos</button>
+                <div class="dropdown-content">
+                  <a href="./destinos.html">Europa</a>
+                  <a href="./destinos.html">Asia</a>
+                  <a href="./destinos.html">Oceania</a>
+                  <a href="./destinos.html">África</a>
+                </div>
+              </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="dropbtn">Dicas</button>
+              <div class="dropdown-content">
+                <a href="#">Viajantes Europa</a>
+                <a href="#">Viajantes Asia</a>
+                <a href="#">Viajantes Oceania</a>
+                <a href="#">Viajantes África</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="dropbtn">Parceiros</button>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="dropbtn">Contato</button>
+              <div class="dropdown-content">
+                <a href="mailto:victorsegatelli@gmail.com">>Email</a>
+                <a href="https://wa.me/+551199019908?text=Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20site%20agilmindset%20e%20gostaria%20de%20saber%20mais%20sobre%0D%0A"
+                  target="_blank" rel="noopener noreferrer">Whatsapp</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="tel: +5511999019908">Ligue pra gente</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <a class="navbar-brand" href="./colaborador.html">
+        <img src="https://img.icons8.com/wired/64/ffffff/airplane-take-off.png"/>
+      </a>
+      </nav>
+      
+      
+    </header>
+    <main>
+        Colaboradores, esse espaço é dedicado para vocês! Preencha o formulário abaixo e ajude viajantes iniciantes com suas experiências:
+        <form class="row g-3">
+            <div class="col-md-4">
+              <label for="validationServer01" class="form-label">First name</label>
+              <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationServer02" class="form-label">Last name</label>
+              <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationServerUsername" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                  Please choose a username.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationServer03" class="form-label">City</label>
+              <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+              <div id="validationServer03Feedback" class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationServer04" class="form-label">State</label>
+              <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+              </select>
+              <div id="validationServer04Feedback" class="invalid-feedback">
+                Please select a valid state.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationServer05" class="form-label">Zip</label>
+              <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+              <div id="validationServer05Feedback" class="invalid-feedback">
+                Please provide a valid zip.
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                <label class="form-check-label" for="invalidCheck3">
+                  Agree to terms and conditions
+                </label>
+                <div id="invalidCheck3Feedback" class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+
+    </main>
+    </body>
+    </html>
+    
+         
