@@ -9,121 +9,150 @@
   <link rel="stylesheet" href="./assets/css/style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 
   <title>Países</title>
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="/">
-        <img src="./assets/img/viaje.jpg" alt="alt" />
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <div class="dropdown">
-              <button class="dropbtn">Home <a href="./index.html"></a></button>
-            </div>
-          <li class="nav-item">
-            <div class="dropdown">
-              <button class="dropbtn">Destinos</button>
-              <div class="dropdown-content">
-                <a href="./destinos.html">Europa</a>
-                <a href="./destinos.html">Asia</a>
-                <a href="./destinos.html">Oceania</a>
-                <a href="./destinos.html">África</a>
+    <div id="carouselExampleCaptions" class="carousel slide navbar-bg" data-ride="carousel">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <div class="dropdown">
+                <button class="dropbtn">
+                  
+                  <a href="./index.html">Home</a>
+                </button>
+                
               </div>
-            </div>
-          </li>
-          <li class="nav-item">
-            <div class="dropdown">
-              <button class="dropbtn">Dicas</button>
-              <div class="dropdown-content">
-                <a href="#">Viajantes Europa</a>
-                <a href="#">Viajantes Asia</a>
-                <a href="#">Viajantes Oceania</a>
-                <a href="#">Viajantes África</a>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    <a href="./destinos.html">Destinos</a>
+                  </button>
+                 
+                </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <a  class="dropbtn" href="./cadastro.html">Cadastre-se</a>
+                
               </div>
-            </div>
-          </li>
-          <li class="nav-item">
-            <div class="dropdown">
-              <button class="dropbtn">Parceiros</button>
-            </div>
-          </li>
-          <li class="nav-item">
-            <div class="dropdown">
-              <button class="dropbtn">Contato</button>
-              <div class="dropdown-content">
-                <a href="mailto:victorsegatelli@gmail.com">>Email</a>
-                <a href="https://wa.me/+551199019908?text=Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20site%20agilmindset%20e%20gostaria%20de%20saber%20mais%20sobre%0D%0A"
-                  target="_blank" rel="noopener noreferrer">Whatsapp</a>
-                <a href="#">Instagram</a>
-                <a href="#">Twitter</a>
-                <a href="tel: +5511999019908">Ligue pra gente</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="dropbtn">Dicas</button>
+                <div class="dropdown-content">
+                  <a href="./embreve.html">Viajantes Europa</a>
+                  <a href="./embreve.html">Viajantes Asia</a>
+                  <a href="./embreve.html">Viajantes Oceania</a>
+                  <a href="./embreve.html">Viajantes África</a>
+                </div>
               </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-
-
-
-    </nav>
-
-    <div class="row row-cols-1 row-cols-md-2">
-      <div class="col mb-4">
-        <div class="card">
-          <img src="./assets/img/europa/roteiro_europa.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Europa</h5>
-            <p class="card-text">Já imaginou fazer uma Euro Trip? Se não, confira o post! Te garanto que após a leitura,
-              essa viagem acontecerá!</p>
-          </div>
+            </li>
+            
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="dropbtn">Contato</button>
+                <div class="dropdown-content">
+                  <a href="mailto:victorsegatelli@gmail.com">>Email</a>
+                  <a href="https://wa.me/+551199019908?text=Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20site%20Viaje-facil%20e%20gostaria%20de%20saber%20mais%20sobre%0D%0A"
+                    target="_blank" rel="noopener noreferrer">Whatsapp</a>
+                    <a href="tel: +5511999019908">Ligue pra gente</a>
+                  
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
-      </div>
-      <div class="col mb-4">
-        <div class="card">
-          <img src="./assets/img/asia/roteiro_asia.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Ásia</h5>
-            <p class="card-text">A Ásia é cheia de mistérios, muitas pessoas deixam de conhece-lá devido a barreira da
-              linguagem e distância mas, nós estamos aqui pra fazer todo o trabalho duro pra você! Quer ver? Leia aqui,
-              vem tranquilo!</p>
-          </div>
-        </div>
-      </div>
-      <div class="col mb-4">
-        <div class="card">
-          <img src="./assets/img/nz/Cape Reinga.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Oceania</h5>
-            <p class="card-text">Quando se pensa em destinos fora do comum pra viajar, a Oceania tem diversas opções!
-              Ficou curioso? Olha só o que separamos pra você.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col mb-4">
-        <div class="card">
-          <img src="./assets/img/africa/roteiro_africa.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">África</h5>
-            <p class="card-text">A África, por muitas vezes descrita como o berço da civilização! Já ouviu falar do Big
-              5 da África? Não?! Não é banda de metal... Clica aqui que te explico...</p>
-          </div>
-        </div>
-      </div>
-
-
-
-
+        <a class="navbar-brand" href="./index.html">
+          <img src="https://img.icons8.com/wired/64/ffffff/airplane-take-off.png"/>
+        </a>
+    
+    
+    
+      </nav>
+    </div>
   </header>
+<div class="continentes">
+  <div class="card" style="width: 28rem;">
+    <img class="card-img-top" src="./assets/img/taiwan.jpg" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">
+        <h2 class="card-title">Asia</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque autem, distinctio, ut ullam delectus perferendis debitis dolore vitae eveniet ab odio! Porro mollitia neque et ad sed eligendi impedit.</p>
+
+      </p>
+    </div>
+  </div>
+  <div class="card" style="width: 28rem;">
+    <img class="card-img-top" src="./assets/img/sidney.png" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">
+        <h2 class="card-title">Oceania</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti facilis incidunt eaque aliquam eius aspernatur consequuntur porro necessitatibus repellendus possimus aliquid, molestiae voluptates quo iste? Blanditiis, commodi tempore. Cupiditate, voluptatibus.</p>
+      </>
+    </div>
+  </div>
+  <div class="card" style="width: 28rem;">
+    <img class="card-img-top" src="./assets/img/cristo-redentor.jpg" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">
+        <h2 class="card-title">América do Sul</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex blanditiis similique nesciunt aliquid! Blanditiis suscipit maiores autem ipsum obcaecati, placeat voluptates natus dolores sit nam, delectus reprehenderit? Provident, iste quasi?</p>
+      </p>
+    </div>
+  </div>
+  <div class="card" style="width: 28rem;">
+    <img class="card-img-top" src="./assets/img/big-ben.jpg" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">
+        <h2 class="card-title">Europa</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam similique eligendi nesciunt vitae tempora tempore tenetur in est repellendus, labore quod distinctio laboriosam accusamus ducimus itaque inventore modi amet cumque.</p>
+      </p>
+    </div>
+  </div>
+  <div class="card" style="width: 28rem;">
+    <img class="card-img-top" src="./assets/img/africa-safari.jpg" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">
+        <h2 class="card-title">Africa</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id officiis saepe temporibus aut velit! Nobis eum nemo dolor quod, exercitationem laboriosam? Blanditiis facere porro, optio similique labore distinctio debitis quaerat?</p>
+      </p>
+    </div>
+  </div>
+  <div class="card" style="width: 28rem;">
+    <img class="card-img-top" src="./assets/img/hollywood.jpg" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">
+        <h2 class="card-title">América do Norte</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate id reiciendis doloremque quibusdam, dolorem, molestias hic minus cumque earum voluptatem sunt dicta, laboriosam placeat dolorum cum adipisci deleniti aliquid pariatur?</p>
+      </p>
+    </div>
+  </div>
+
+</div>
+<div>
+  <footer >
+    <p>Viaje Fácil - 2020 &copy; | <a href="tel: +5511999019908" title="Entre em contato">Entre em contato: +55 11
+        99901-9908</a>
+      | <a
+        href="https://wa.me/+551199019908?text=Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20site%20Viaje-facil%20e%20gostaria%20de%20saber%20mais%20sobre%0D%0A"
+        target="_blank" rel="noopener noreferrer">Consulte-nos via Whatsapp</a> | <a
+        href="mailto:victorsegatelli@gmail.com">Mande um e-mail</a></p>
+  </footer>
+</div>
+
 </body>
+
 
 </html>

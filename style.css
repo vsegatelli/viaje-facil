@@ -1,0 +1,283 @@
+*,
+html,
+body,
+main,
+section,
+article
+h1, h2, h3
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  color: rgb(87, 87, 190);
+  background-color: rgb(226, 226, 236);
+  position: relative;
+}
+
+
+nav {
+  color: white
+}
+
+carousel [class="carosel-item"] {
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  object-fit: fill;
+  object-position: top;
+
+}
+
+main {
+
+ 
+  color: rgb(226, 226, 236);
+  margin-top: 56px;
+  min-height: calc(100vh - 100px);
+  
+}
+.card-title {  
+  text-align: left;
+  color: rgb(87, 87, 190);
+  background-color:unset;
+
+}  
+
+h1,
+h2 {
+  text-align: center;
+  color: rgb(87, 87, 190);
+  background-color: rgb(226, 226, 236);
+}
+
+section h1,
+#titulo {
+  height: 100%;
+  width: auto;
+  color: rgb(87, 87, 190);
+
+}
+
+h4 {
+  margin: auto;
+  width: max-content;
+  padding-bottom: 30px;
+}
+ 
+.h1cadastro {
+  padding-bottom: 30px;
+  padding-top: 100px;
+}
+
+section,
+article {
+  height: 100%;
+  width: 100%;
+  font-size: 22px;
+  text-align: center;
+}
+
+.formulario {
+  width: 50%;
+  margin:auto;
+
+}
+.navbar-bg {
+  position: relative;
+}
+
+.navbar {
+  background: rgb(82, 82, 87);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(0 212 255 / 0%) 100%);
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+  font-family: 'Staatliches', cursive;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ 
+.navbar-nav {
+  align-items: center;
+}
+
+#navbarNav {
+  flex-grow: 0;
+}
+
+.nav-item { padding:3px}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #383d3800;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.tituloClass { 
+
+}
+.centralizar {
+  width: 100%;
+}
+
+.manutencao {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+}
+
+.manutencao img {
+  width: 100%;
+}
+
+.manutencao span {
+  color: #000;
+
+}
+
+.continentes {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.card {
+  margin:20px;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  background-color:#5c5c5cd5;
+  display: none;
+  position: absolute;
+  
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  border: 1px solid #ffffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  font-family: 'Staatliches', cursive;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  font-weight: bold;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #383d3800;
+}
+
+.logoaviao { 
+  max-width: 300px;
+  height: auto;
+}
+
+section {
+  color: rgb(87, 87, 190);
+  background-color: rgb(226, 226, 236);
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 30vh;
+  display: flexbox;
+  width: 90%;
+  margin: auto;
+}
+
+
+
+.titulo-header .busca input {
+  font-size: 20px;
+  color: #414042;
+  z-index: 323;
+  padding-left: 10px;
+  width: 330px;
+  border: solid black 1px;
+}
+
+.titulo-header .busca {
+  text-align: center;
+}
+
+.btn-container {
+  display: flex; justify-content: flex-end;
+
+}
+
+
+.btntop  {
+  color: #000000;
+  margin: 15px;
+  position: absolute;
+  bottom: 60px
+  
+}
+
+.button:hover {
+  background-color: rgb(107, 9, 28);
+  color: white;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color:rgba(2,0,36,1);
+  font-size: 15px;
+  margin-bottom: 0%;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width : 100%;
+}
+
+footer p {
+  margin: 0;
+}
